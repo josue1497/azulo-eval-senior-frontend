@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travelers</title>
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyBZYr6OC20KV2J5r1u4sp5tOEx9rYA9mlk"></script>
+    <script>
+      if (global === undefined) {
+        var global = window;
+      }
+    </script>
+    <!-- https://github.com/aws/aws-amplify/issues/678 fix end-->
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
